@@ -11,7 +11,11 @@ module.exports = function (grunt) {
         tasks: ['autoprefixer', 'cssmin']
       },
       html: {
-        files: ['index.src.html'],
+        files: [
+        'index.src.html',
+        'about.src.html',
+        'open.src.html'
+        ],
         tasks: ['htmlmin']
       }
     },
@@ -49,7 +53,9 @@ module.exports = function (grunt) {
           collapseBooleanAttributes: true
         },
         files: {
-          'index.html': 'index.src.html'
+          'index.html': 'index.src.html',
+          'about/index.html': 'about.src.html',
+          'open/index.html': 'open.src.html'
         }
       },
     },
