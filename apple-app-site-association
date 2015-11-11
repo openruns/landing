@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "7B5LV2D7RZ.com.openruns.app",
+                "paths": [ "/show*" ]
+            },
+            {
+                "appID": "5K522FTZKQ.com.openruns.dev",
+                "paths": [ "/show*" ]
+            }
+        ]
+    }
+}

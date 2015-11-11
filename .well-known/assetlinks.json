@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.openruns.app",
+    "sha256_cert_fingerprints":
+    ["7B:CE:BB:84:ED:F7:BB:AF:01:F3:78:1F:A1:FC:1F:9E:21:AE:8E:7C:FE:E1:58:98:FC:84:01:0A:87:A5:02:8C"]
+  }
+}]
