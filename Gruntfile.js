@@ -3,7 +3,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
         watch: {
           sass: {
-            files: ['sass/*'],
+            files: ['sass/**/*'],
             tasks: ['sass']
           },
           css: {
