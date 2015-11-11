@@ -3,11 +3,11 @@ module.exports = function (grunt) {
   grunt.initConfig({
         watch: {
           sass: {
-            files: ['styles.scss'],
+            files: ['sass/*'],
             tasks: ['sass']
           },
           css: {
-            files: ['styles.css', 'reset.css'],
+            files: ['styles.css'],
             tasks: ['autoprefixer', 'cssmin']
           },
           html: {
@@ -21,7 +21,7 @@ module.exports = function (grunt) {
               style: 'expanded'
             },
             files: {
-              'styles.css': 'styles.scss'
+              'styles.css': 'sass/styles.scss'
             }
           }
         },
@@ -34,7 +34,7 @@ module.exports = function (grunt) {
         cssmin: {
           combine: {
             files: {
-              'styles.min.css': ['reset.css', 'styles.prefixed.css']
+              'styles.min.css': ['styles.prefixed.css']
             }
           }
         },
