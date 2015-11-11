@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         files: [
         'index.src.html',
         'about.src.html',
-        'open.src.html'
+        'show.src.html'
         ],
         tasks: ['htmlmin']
       }
@@ -55,7 +55,7 @@ module.exports = function (grunt) {
         files: {
           'index.html': 'index.src.html',
           'about/index.html': 'about.src.html',
-          'open/index.html': 'open.src.html'
+          'show/index.html': 'show.src.html'
         }
       },
     },
